@@ -97,7 +97,7 @@ while True:
 	print("Final conversation:")
 	for msg in result["messages"]:
 		role = "Human" if isinstance(msg, HumanMessage) else "AI"
-	print(f"\n{role}: {msg.content}")
+		print(f"\n{role}: {msg.content}")
 	print(f"\n\nTotal iterations: {result['iteration']}")
 	print("View traces in LangSmith dashboard: https://smith.langchain.com/")
 
