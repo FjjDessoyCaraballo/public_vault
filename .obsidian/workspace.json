@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "773692dbc2af1a44",
+        "id": "b21c26acabb06a50",
         "type": "tabs",
         "children": [
           {
-            "id": "76f58fcd146fb54f",
+            "id": "cdd4a8516c994c35",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20251001101056.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251001101056"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -178,12 +176,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76f58fcd146fb54f",
+  "active": "cdd4a8516c994c35",
   "lastOpenFiles": [
+    "Pasted.md",
+    "N8N.md",
     "Pasted image 20251001101038.png",
+    "Pasted image 20251001101056.png",
     "Vector databases.md",
     "LangChain.md",
-    "N8N.md",
     "Pasted image 20250312150518.png",
     "Pasted image 20250311151710.png",
     "Pasted image 20250311134609.png",
@@ -191,7 +191,6 @@
     "Pasted image 20251002152439.png",
     "Pasted image 20251002152231.png",
     "Pasted image 20251002151954.png",
-    "Pasted image 20251002151819.png",
-    "Pasted image 20251002151819 1.png"
+    "Pasted image 20251002151819.png"
   ]
 }
