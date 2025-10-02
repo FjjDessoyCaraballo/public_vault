@@ -38,8 +38,6 @@ def process_input(state: AgentState) -> AgentState:
 		state["next_step"] = "continue"
 	return state
 
-  
-
 def refine_response(state: AgentState) -> AgentState:
 	"""refine the responses if necessary"""
 	messages = state["messages"]
@@ -47,8 +45,6 @@ def refine_response(state: AgentState) -> AgentState:
 	response = llm.invoke(messages + [refinement_msg])
 	state["messages"].append(response)
 	return state
-
-  
 
 def create_graph():
 	"""LangGraph workflow goes here"""
@@ -73,8 +69,6 @@ def create_graph():
 	workflow.add_edge("refine", END)
 	return workflow.compile()
 
-  
-
 def run_agent(user_input: str):
 	"""main execution with langsmith"""
 	initial_state = {
@@ -85,8 +79,6 @@ def run_agent(user_input: str):
 	graph = create_graph()
 	result = graph.invoke(initial_state)
 	return result
-
-  
 
 if __name__ == "__main__":
 while True:
