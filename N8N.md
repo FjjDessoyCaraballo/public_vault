@@ -1,7 +1,6 @@
 # What is N8N
 
 Simple no-code/low-code platform to automate tasks. There are many ways of automating whatever possible task you may have, but for this document I will focus on a simple scraper.
-
 ## Simple scraper
 
 The scraper will:
